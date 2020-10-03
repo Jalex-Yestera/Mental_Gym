@@ -1,0 +1,12 @@
+{
+  "name": "crews_challenge_MCJ-master",
+  "version": "1.0.0",
+  "description": "<<<<<<< HEAD Desafio de tripulaciones The Bridge Jun-20",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
