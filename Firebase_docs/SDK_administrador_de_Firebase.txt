@@ -1,0 +1,23 @@
+# Cuenta de servicio de Firebase
+firebase-adminsdk-eiygx@mental-gym.iam.gserviceaccount.com
+
+
+# Fragmento de configuración del SDK de administración en JAVA
+FileInputStream serviceAccount =
+  new FileInputStream("path/to/serviceAccountKey.json");
+
+FirebaseOptions options = new FirebaseOptions.Builder()
+  .setCredentials(GoogleCredentials.fromStream(serviceAccount))
+  .setDatabaseUrl("https://mental-gym.firebaseio.com")
+  .build();
+
+FirebaseApp.initializeApp(options);
+
+
+
+# Fragmento de configuración del SDK de administración en PYTHON
+import firebase_admin
+from firebase_admin import credentials
+
+cred = credentials.Certificate("path/to/serviceAccountKey.json")
+firebase_admin.initialize_app(cred)

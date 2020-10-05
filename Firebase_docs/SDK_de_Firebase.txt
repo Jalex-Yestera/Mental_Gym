@@ -1,0 +1,43 @@
+#Antes de utilizar cualquier servicio de Firebase, copia y pega
+estas secuencias de comandos en la parte inferior de la etiqueta <body>:
+# Red CDN ##########
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.22.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyB7-nruCZx_5pOTHUsGljptrw_YixUa42M",
+    authDomain: "mental-gym.firebaseapp.com",
+    databaseURL: "https://mental-gym.firebaseio.com",
+    projectId: "mental-gym",
+    storageBucket: "mental-gym.appspot.com",
+    messagingSenderId: "946422214142",
+    appId: "1:946422214142:web:2cb844f8bff02f667d24af",
+    measurementId: "G-DG02NV1PED"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+## Configuracion #########
+
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyB7-nruCZx_5pOTHUsGljptrw_YixUa42M",
+  authDomain: "mental-gym.firebaseapp.com",
+  databaseURL: "https://mental-gym.firebaseio.com",
+  projectId: "mental-gym",
+  storageBucket: "mental-gym.appspot.com",
+  messagingSenderId: "946422214142",
+  appId: "1:946422214142:web:2cb844f8bff02f667d24af",
+  measurementId: "G-DG02NV1PED"
+};
